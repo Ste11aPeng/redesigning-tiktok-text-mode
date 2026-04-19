@@ -1,20 +1,34 @@
-# Wishes — Creation Flow Prototype
 
-An interactive HTML prototype of an iOS social writing app with:
+# Define the content of the README.md
+readme_content = """# TikTok Text Mode Redesign: Low-Pressure Creation
 
-- Ambient shape-idea suggestions
-- Auto Layout that transforms plain text into 5 visual templates (Classic, Typewriter, Poster, Handnote, Stacked Cards)
-- Crossfade shuffle transitions with motion blur
-- Guided tour with step indicator and rewind
+An interactive high-fidelity prototype rethinking the text-sharing experience. This project explores how to transform high-stakes posting into a **low-pressure, repeatable creation habit**.
 
-## Live demo
+## Core Experience
+* **Dynamic Prompting:** Cycling placeholders move beyond "Say something," offering specific idea prompts to kickstart inspiration.
+* **Ambient Assistance:** Smart "Shape Ideas" fade in after a strategic **800ms pause**—perfectly timed to support the user's natural thought rhythm without interruption.
+* **Expressive Auto Layout:** Instantly transform plain text into 5 eye-catching visual styles (**Classic, Typewriter, Poster, Handnote, Stacked Cards**) with a single tap.
+* **Vivid Motion:** High-fidelity transitions including crossfades and motion blur that make text feel as engaging as video.
 
-Deployed via GitHub Pages — see the **Pages** link in repo settings.
+## Tech & Workflow
+This prototype was fully realized in **3 days**, moving from concept to functional code:
+* **Design:** UI architecture and component logic defined in **Figma**.
+* **Engineering:** Built with **Cursor + Claude Code**, leveraging "Vibe Coding" for rapid, AI-accelerated development.
+* **Motion:** High-end animations inspired by modern motion design references, implemented via pure CSS/JS.
+* **Context:** Developed during **Spring 2026** for internal product exploration and testing.
 
-## Local preview
-
-Just open `index.html` in any modern browser. No build step, no dependencies (fonts load from Google Fonts; keyboard PNG is inlined as base64).
+## Preview
+* **Live Demo:** [View Interactive Prototype](https://ste11apeng.github.io/redesigning-tiktok-text-mode/)
+* **Local Access:** Open `index.html` in any modern browser. No build steps or external dependencies required.
 
 ## Credits
+* **Tools:** Claude & Cursor.
+* **Typography:** TikTok Sans, Fraunces, Courier Prime.
+"""
 
-Built with Claude. Typography: TikTok Sans, Fraunces, Courier Prime.
+# Save to a file
+file_path = 'README.md'
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(readme_content)
+
+print(f"File saved to {file_path}")
