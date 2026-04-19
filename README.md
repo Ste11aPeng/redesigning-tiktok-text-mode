@@ -18,6 +18,5 @@ This prototype was fully realized in **3 days**, moving from concept to function
 * **Local Access:** Open `index.html` in any modern browser. No build steps or external dependencies required.
 
 ## Credits
-* **Tools:** Claude & Cursor.
-* **Typography:** TikTok Sans, Fraunces, Courier Prime.
-"""
+* **Tools:** Claude & Cursor. Fine tone and Figma Design by Stella!
+* **Typography:** TikTok Sans, Fraunce
