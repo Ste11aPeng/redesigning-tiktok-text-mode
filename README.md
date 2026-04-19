@@ -1,8 +1,4 @@
 
-# Define the content of the README.md
-readme_content = """# TikTok Text Mode Redesign: Low-Pressure Creation
-
-An interactive high-fidelity prototype rethinking the text-sharing experience. This project explores how to transform high-stakes posting into a **low-pressure, repeatable creation habit**.
 
 ## Core Experience
 * **Dynamic Prompting:** Cycling placeholders move beyond "Say something," offering specific idea prompts to kickstart inspiration.
@@ -25,10 +21,3 @@ This prototype was fully realized in **3 days**, moving from concept to function
 * **Tools:** Claude & Cursor.
 * **Typography:** TikTok Sans, Fraunces, Courier Prime.
 """
-
-# Save to a file
-file_path = 'README.md'
-with open(file_path, 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print(f"File saved to {file_path}")
